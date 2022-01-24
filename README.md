@@ -48,5 +48,6 @@ Thus all the calls to Cloudflare API are serialized. Performance is not a concer
 - test (the handler was developed and tested using end to end manual testing)
 - documentation
 
-## License
+## Contributing
 
+PR's are welcome ;-)
