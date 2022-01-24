@@ -3,7 +3,7 @@ module github.com/petr-tichy/cloudflare-scim
 go 1.17
 
 require (
-	github.com/cloudflare/cloudflare-go v0.29.0
+	github.com/cloudflare/cloudflare-go v0.30.1-0.20220124202519-05dfc28a2f74
 	github.com/elimity-com/scim v0.0.0-20211119105057-007f1a2691f0
 	github.com/gorilla/handlers v1.5.1
 	github.com/mpvl/unique v0.0.0-20150818121801-cbe035fff7de
@@ -24,5 +24,3 @@ require (
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
-
-replace github.com/cloudflare/cloudflare-go => github.com/petr-tichy/cloudflare-go v0.30.1-0.20220124111114-88c1a4021545
