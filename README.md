@@ -29,6 +29,8 @@ docker run --rm -p 7643:7643 -e CLOUDFLARE_API_TOKEN -e CLOUDFLARE_ACCESS_ACCOUN
 - allow using PATCH method to update group membership
 - use user email as user principal name
 - if an attribute is mandatory, use `externalId` with any value (ignored)
+- if the SCIM client keeps track of user accounts (like Rippling), there should be a Teams group where all users are added,
+otherwise created users will disappear after a sync
 
 ## Design
 
